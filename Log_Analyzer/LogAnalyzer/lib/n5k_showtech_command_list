@@ -1,0 +1,536 @@
+show switchname
+show system uptime
+show interface mgmt0
+show system resources
+show version 
+dir bootflash:
+show inventory
+show diagnostic result module all 
+show logging log 
+show module
+show module 1 port type
+show module 2 port type
+show module 3 port type
+show module 4 port type
+show environment
+show sprom backplane
+show clock 
+show callhome
+show cfs application
+show cfs lock
+show snmp
+show interface brief
+show interface
+show running-config
+show startup-config
+show accounting log 
+show process
+show process cpu
+show processes cpu history
+show process log
+show process memory
+show processes log details
+show license host-id
+show license
+show license usage
+show system reset-reason
+show logging nvram
+show install all status
+show install all failure-reason
+show system internal log install
+show system internal log install details
+no boot-install system
+boot-install kickstart bootflash:/n5000-uk9-kickstart.5.2.1.N1.9.bin
+boot-install system bootflash:/n5000-uk9.5.2.1.N1.9.bin
+show cores
+show system internal kernel aipc
+show tech-support acl
+show system internal aclmgr status
+show system internal aclmgr log
+show system internal aclmgr ppf subscription
+show system internal aclmgr ppf sessions
+show system internal aclmgr ppf dsets
+show system internal aclmgr ppf nodes
+show system internal aclmgr ppf control
+show system internal aclmgr dictionaries
+show system internal aclmgr state-cache
+show access-lists
+show vlan access-map
+show system internal aclmgr event-history msgs
+show system internal aclmgr event-history sessions
+show system internal aclmgr event-history errors
+show vlan
+show logging onboard obfl-logs
+show hardware internal cpu-mac mgmt counters
+show hardware internal cpu-mac mgmt stats
+show hardware internal cpu-mac inband counters
+show hardware internal cpu-mac inband stats
+show spanning-tree internal info global | grep Total
+show tech-support port-profile 
+show port-profile
+show port-profile usage
+show port-profile brief
+show port-profile expand-interface
+show port-profile sync-status
+show accounting log
+show system internal port-profile command-cache
+show system internal port-profile event-queue
+show system internal port-profile interface database
+show system internal port-profile event-history errors
+show system internal port-profile event-history msgs
+show system internal port-profile profile-fsm
+show system internal port-profile interface-fsm
+show system internal port-profile mem-stats
+show system internal port-profile mem-stats detail
+show system internal mts buffers
+show system internal mts buffers details
+show switch-profile status
+show running-config switch-profile
+show switch-profile session-history
+show system internal csm info global-db cmd-tbl detail
+show system internal csm info global-db seq-tbl detail
+show system internal csm info switch-profile cfgd-db cmd-tbl detail
+show system internal csm info switch-profile cfgd-db seq-tbl detail
+show system internal csm info switch-profile local-db cmd-tbl detail
+show system internal csm info switch-profile local-db seq-tbl detail
+show system internal csm info trace
+show system internal csm info transport detail
+show tech-support cdp
+show cdp all
+show cdp global
+show cdp internal mem-stats detail
+show cdp internal event-history msgs
+show cdp internal event-history errors
+show cdp internal event-history debugs
+show cdp internal runtime-contexts
+show cdp internal global-info
+show cdp neighbors
+show cdp neighbors detail
+show queuing interface
+show system internal mts buffers
+show system internal mts buffers details
+show hardware internal carmel counters interrupt
+show hardware internal carmel interrupt
+show ip route vrf all
+show ip arp vrf all
+show monitor session all
+show monitor internal errors
+show monitor internal info session all
+show monitor internal info global-info
+show mac-address-table 
+show spanning-tree summary
+show spanning-tree active
+show interface trunk
+show system internal ethpm info all
+show tech-support port-channel
+show port-channel internal event-history all
+show port-channel internal event-history errors
+show port-channel internal event-history msgs
+show port-channel internal event-history lock
+show port-channel internal mem-stats detail
+show port-channel usage
+show port-channel summary
+show tech-support lacp
+show lacp internal info all
+show lacp internal event-history errors
+show lacp internal event-history msgs
+show lacp internal event-history lock
+show lacp internal event-history global
+show lacp internal mem-stats detail
+show lacp counters
+show tech-support ipqos
+show system internal ipqos event-history msgs
+show system internal ipqos event-history errors
+show system internal ipqos class-map type qos
+show system internal ipqos class-map type queuing
+show system internal ipqos policy-map type qos
+show system internal ipqos policy-map type queuing
+show system internal ipqos global-defaults
+show system internal ipqos locks
+show system internal ipqos event-history locks
+show system internal ipqos event-history mts-msgs
+show system internal ipqos event-history sessions
+show system internal ipqos ppf-lib
+show system internal ipqos mem-stats detail
+show system internal ipqos port-node
+show system internal ipqos vlan-tbl 1-4094
+show system internal ipqos log
+show system internal ipqos statistics bucket
+show system internal ipqos status
+show system internal ipqos session
+show class-map type qos
+show class-map type queuing
+show policy-map type qos
+show policy-map type queuing
+show policy-map interface brief
+show class-map type network-qos
+show policy-map type network-qos
+show policy-map system type network-qos
+show system internal ipqos system-node
+show system internal ipqos class-map type network-qos
+show system internal ipqos policy-map type network-qos
+show system internal ipqos vlmgr info
+show system internal ipqos vlmgr fsm
+show interface priority-flow-control
+show system internal ipqos dcbxp info
+show plat software qd info
+show plat software qd info eth
+show plat software qd info fex
+show plat software qd info sup
+show plat software qd info fc
+show plat software qd info system
+show plat software qd info module
+show plat software qd info interface
+show plat software qd info bundle
+show plat software qd info pss
+show wrr-queue cos-map
+show platform software qd mem-stats
+show platform software qd errors
+show platform software qd msgs
+show platform software qd event-history msgs
+show platform software qd event-history errors
+show tech-support lldp
+show lldp neighbors
+show lldp timers
+show lldp traffic
+show system internal lldp event-history msgs
+show system internal lldp event-history errors
+show system internal lldp info
+show system internal lldp info global
+show tech-support dcbx
+show lldp dcbx interface mgmt0 
+show system internal dcbx info interface mgmt0 
+show lldp dcbx interface Ethernet1/1 
+show system internal dcbx info interface Ethernet1/1 
+show lldp dcbx interface Ethernet1/2 
+show system internal dcbx info interface Ethernet1/2 
+show lldp dcbx interface Ethernet1/3 
+show system internal dcbx info interface Ethernet1/3 
+show lldp dcbx interface Ethernet1/4 
+show system internal dcbx info interface Ethernet1/4 
+show lldp dcbx interface Ethernet1/5 
+show system internal dcbx info interface Ethernet1/5 
+show lldp dcbx interface Ethernet1/6 
+show system internal dcbx info interface Ethernet1/6 
+show lldp dcbx interface Ethernet1/7 
+show system internal dcbx info interface Ethernet1/7 
+show lldp dcbx interface Ethernet1/8 
+show system internal dcbx info interface Ethernet1/8 
+show lldp dcbx interface Ethernet1/9 
+show system internal dcbx info interface Ethernet1/9 
+show lldp dcbx interface Ethernet1/10 
+show system internal dcbx info interface Ethernet1/10 
+show lldp dcbx interface Ethernet1/11 
+show system internal dcbx info interface Ethernet1/11 
+show lldp dcbx interface Ethernet1/12 
+show system internal dcbx info interface Ethernet1/12 
+show lldp dcbx interface Ethernet1/13 
+show system internal dcbx info interface Ethernet1/13 
+show lldp dcbx interface Ethernet1/14 
+show system internal dcbx info interface Ethernet1/14 
+show lldp dcbx interface Ethernet1/15 
+show system internal dcbx info interface Ethernet1/15 
+show lldp dcbx interface Ethernet1/16 
+show system internal dcbx info interface Ethernet1/16 
+show lldp dcbx interface Ethernet1/17 
+show system internal dcbx info interface Ethernet1/17 
+show lldp dcbx interface Ethernet1/18 
+show system internal dcbx info interface Ethernet1/18 
+show lldp dcbx interface Ethernet1/19 
+show system internal dcbx info interface Ethernet1/19 
+show lldp dcbx interface Ethernet1/20 
+show system internal dcbx info interface Ethernet1/20 
+show lldp dcbx interface Ethernet1/21 
+show system internal dcbx info interface Ethernet1/21 
+show lldp dcbx interface Ethernet1/22 
+show system internal dcbx info interface Ethernet1/22 
+show system internal dcbx info global 
+show vpc
+show int counter 
+show topology
+show logging level
+show monitor session all 
+show port internal info all
+show port internal event-history lock
+show port internal event-history msgs
+show port internal event-history errors
+show port internal mem-stats detail
+show tech-support cfs
+show cfs peers
+show cfs status
+show cfs internal event-history errors
+show cfs internal event-history msgs
+show cfs internal event-history init
+show cfs internal ip database
+show cfs internal mem-stats detail
+show cfs internal remote application
+show cfs internal vsan database
+show cfs internal application
+show cfs regions
+show cfs regions brief
+show cfs static peers
+show cfs internal event-history init ip
+show cfs internal static-peers info
+show cfs internal static-peers log
+show cfs internal ethernet-peer database
+show cfs internal ethernet-peer statistics
+show cfs internal ethernet-peer error-statistics
+show cfs internal ethernet-peer net-batch-stats
+show cfs internal event-history init transmission
+show cfs peers name arp
+show cfs internal event-history notif name arp
+show cfs merge status name arp
+show cfs internal event-history merge name arp
+show cfs internal merge log name arp
+show cfs internal session-history name arp detail
+show cfs internal message-context name arp
+show cfs internal notification log name arp
+show cfs peers name fwm
+show cfs internal event-history notif name fwm
+show cfs merge status name fwm
+show cfs internal event-history merge name fwm
+show cfs internal merge log name fwm
+show cfs internal session-history name fwm detail
+show cfs internal message-context name fwm
+show cfs internal notification log name fwm
+show cfs peers name stp
+show cfs internal event-history notif name stp
+show cfs merge status name stp
+show cfs internal event-history merge name stp
+show cfs internal merge log name stp
+show cfs internal session-history name stp detail
+show cfs internal message-context name stp
+show cfs internal notification log name stp
+show cfs peers name vpc
+show cfs internal event-history notif name vpc
+show cfs merge status name vpc
+show cfs internal event-history merge name vpc
+show cfs internal merge log name vpc
+show cfs internal session-history name vpc detail
+show cfs internal message-context name vpc
+show cfs internal notification log name vpc
+show cfs peers name fscm
+show cfs internal event-history notif name fscm
+show cfs merge status name fscm
+show cfs internal event-history merge name fscm
+show cfs internal merge log name fscm
+show cfs internal session-history name fscm detail
+show cfs internal message-context name fscm
+show cfs internal notification log name fscm
+show cfs peers name igmp
+show cfs internal event-history notif name igmp
+show cfs merge status name igmp
+show cfs internal event-history merge name igmp
+show cfs internal merge log name igmp
+show cfs internal session-history name igmp detail
+show cfs internal message-context name igmp
+show cfs internal notification log name igmp
+show cfs peers name icmpv6
+show cfs internal event-history notif name icmpv6
+show cfs merge status name icmpv6
+show cfs internal event-history merge name icmpv6
+show cfs internal merge log name icmpv6
+show cfs internal session-history name icmpv6 detail
+show cfs internal message-context name icmpv6
+show cfs internal notification log name icmpv6
+show cfs peers name session-mgr
+show cfs internal event-history notif name session-mgr
+show cfs merge status name session-mgr
+show cfs internal event-history merge name session-mgr
+show cfs internal merge log name session-mgr
+show cfs internal session-history name session-mgr detail
+show cfs internal message-context name session-mgr
+show cfs internal notification log name session-mgr
+show cfs peers name device-alias
+show cfs internal event-history notif name device-alias
+show cfs merge status name device-alias
+show cfs internal event-history merge name device-alias
+show cfs internal merge log name device-alias
+show cfs internal session-history name device-alias detail
+show cfs internal message-context name device-alias
+show cfs internal notification log name device-alias
+show tech-support fcdomain
+show fcdomain status
+show fcdomain session-status
+show fcdomain
+show fcdomain domain-list
+show fcdomain allowed
+show fcdomain pending-diff
+show fcdomain address-allocation
+show fcdomain address-allocation cache
+show fcdomain fcid persistent
+show fcdomain internal event-history
+show fcdomain internal mem-stats detail
+show fcdomain statistics
+show fcdomain internal info mts
+show fcdomain internal info fcidp-tbl range 0-599
+show tech-support fcns
+show fcns database vsan 1-4093
+show fcns database detail vsan 1-4093
+show fcns database local vsan 1-4093
+show fcns database local detail vsan 1-4093
+show fcns statistics vsan 1-4093
+show fcns statistics detail vsan 1-4093
+show fcns internal info vsan 1-4093
+show fcns internal event-history
+show fcns internal event-log
+show fcns internal event-summary
+show fcns internal reject-log vsan 1-4093
+show fcns internal debug-info
+show fcns internal mem-stats detail
+show fcroute unicast
+show fctimer
+show flogi database
+show flogi database details
+show flogi internal info
+show fspf
+show fspf database
+show tech-support rscn
+show rscn internal vsan 1-4093
+show rscn internal event-history
+show rscn internal mem-stats detail
+show rscn internal session-history vsan 1-4093
+show rscn internal merge-history vsan 1-4093
+show rscn statistics detail vsan 1-4093
+show rscn scr-table vsan 1-4093
+show rscn session status vsan 1-4093
+show vsan
+show vsan membership
+show tech-support fcs
+show fcs ie
+show fcs database
+show fcs statistics
+show fcs internal info
+show fcs internal ess-info
+show fcs internal mem-stats detail
+show fcs internal event-history
+show tech-support zone
+show zone status vsan 1-4093
+show zoneset active vsan 1-4093
+show zoneset vsan 1-4093
+show zone vsan 1-4093
+show fcalias vsan 1-4093
+show zone policy vsan 1-4093
+show zoneset pending active vsan 1-4093
+show zoneset pending vsan 1-4093
+show zone pending vsan 1-4093
+show zone pending active vsan 1-4093
+show fcalias pending vsan 1-4093
+show zone policy pending vsan 1-4093
+show zone pending-diff vsan 1-4093
+show zone analysis active vsan 1-4093
+show zone analysis vsan 1-4093
+show zone ess vsan 1-4093
+show zone internal vsan 1-4093
+show zone internal change event-history vsan 1-4093
+show zone internal ifindex-table vsan 1-4093
+show zone internal merge event-history vsan 1-4093
+show zone internal fcoe log events
+show zone internal fcoe log errors
+show zone internal event-history
+show zone internal event-history errors
+show zone internal tcam event-history vsan 1-4093
+show zone statistics vsan 1-4093
+show system default zone
+show zone internal global-info
+show zone internal ddas-table
+show zone internal rcs-info
+show zone internal sdv-table vsan 1-4093
+show zone internal mem-stats
+show zone internal mem-stats detail
+show zone internal transit-table received vsan 1-4093
+show zone internal transit-table forwarded vsan 1-4093
+show zone internal transit-table rejected vsan 1-4093
+show zone internal rscn acl-table current vsan 1-4093
+show zone internal rscn acl-table previous vsan 1-4093
+show zone internal rscn affected-fcid-list vsan 1-4093
+show zone internal rscn log events
+show tech-support device-alias
+show device-alias database
+show device-alias pending
+show device-alias pending-diff
+show device-alias status
+show device-alias session status
+show device-alias merge status
+show device-alias statistics
+show device-alias internal info
+show device-alias internal peer-info
+show device-alias internal validation-info
+show device-alias internal event-history session-fsm
+show device-alias internal errors
+show device-alias internal mem-stats detail
+show device-alias internal msgs
+show scsi-target internal event-history msgs
+show scsi-target internal event-history errors
+show system internal rib domain
+show system internal rib internal event-history errors
+show system internal rib internal event-history msgs
+show system internal rib internal memory-pool-usage
+show system internal rib multicast
+show system internal rib summary
+show system internal rib sync-log label
+show system internal rib sync-log multicast
+show system internal rib sync-log unicast
+show system internal rib unicast
+show system internal rib vsan-attributes
+show system internal rib vsan-rewrite
+show system internal liod liod_db
+show tech-support fcoe
+show platform software fcoe_mgr event-history errors
+show platform software fcoe_mgr event-history msgs
+show platform software fcoe_mgr event-history lock
+show platform software fcoe_mgr info global
+show platform software fcoe_mgr info pss
+show platform software fcoe_mgr info sdb
+show platform software fcoe_mgr info pcfcfmac
+show platform software fcoe_mgr mem-stats detail
+show tech-support fc2
+show fc2 internal event-history msgs
+show fc2 internal event-history errors
+show fc2 internal event-history log_errors
+show fc2 port brief
+show system internal fcfwd idxmap port-to-interface
+show fc2 flogi
+show fc2 plogi
+show fc2 classf
+show fc2 socket
+show processes
+show fc2 bind
+show fc2 exchange
+show fc2 exchresp
+show fc2 socknport
+show fc2 socknotify
+show san-port-channel internal event-history all
+show san-port-channel internal event-history errors
+show san-port-channel internal event-history msgs
+show san-port-channel internal event-history lock
+show san-port-channel internal mem-stats detail
+show san-port-channel usage
+show san-port-channel summary
+show san-port-channel consistency detail
+show platform software zschk internal info
+show platform software zschk internal msgs
+show platform software zschk internal errors
+show platform fcfib unicasts
+show platform fcfib unicasts forwarding-configuration
+show platform fcfib vsan
+show platform fcfib san-port-channel
+show platform fcfib fcflow
+show platform fcfib event-history all
+show platform software fcfib devices
+show platform software fcfib pathselecttable
+show platform software fcfib multipath
+show platform software fcfib vsanidxtable
+show platform software fcfib domainidxtable
+show platform hardware fcfib pathselecttable all
+show platform hardware fcfib multipath all
+show platform hardware fcfib vsanidxtable all
+show platform hardware fcfib domainidxtable all
+show platform software fcfib fctable-check
+show system internal fcfwd fwidxmap if_index
+show system internal fcfwd idxmap interface-to-port
+show system internal fcfwd fwvfcmacmap if_index 
+show system internal fcfwd pcmap
+show hardware internal fc-mac all-ports
+show fcflow stats module 2
+show fcflow stats aggregated module 2
